@@ -48,21 +48,22 @@ class MainActivity : AppCompatActivity() {
         firstGroupMembers.add(Member("민호", "1991.12.09", "ESFP"))
         firstGroupMembers.add(Member("태민", "1993.07.18", "INFP"))
 
-        val secondGroup = "샤이니"
+        val secondGroup = "스트레이키즈"
         val secondGroupMembers = ArrayList<Member>()
-        secondGroupMembers.add(Member("온유", "1989.12.14", "ISFP"))
+        secondGroupMembers.add(Member("방찬", "1989.12.14", "ISFP"))
         secondGroupMembers.add(Member("종현", "1990.04.08", "CUTE"))
         secondGroupMembers.add(Member("키", "1991.09.23", "ENTJ"))
         secondGroupMembers.add(Member("민호", "1991.12.09", "ESFP"))
         secondGroupMembers.add(Member("태민", "1993.07.18", "INFP"))
 
-        val thirdGroup = "샤이니"
+        val thirdGroup = "온앤오프"
         val thirdGroupMembers = ArrayList<Member>()
-        thirdGroupMembers.add(Member("온유", "1989.12.14", "ISFP"))
-        thirdGroupMembers.add(Member("종현", "1990.04.08", "CUTE"))
-        thirdGroupMembers.add(Member("키", "1991.09.23", "ENTJ"))
-        thirdGroupMembers.add(Member("민호", "1991.12.09", "ESFP"))
-        thirdGroupMembers.add(Member("태민", "1993.07.18", "INFP"))
+        thirdGroupMembers.add(Member("효진", "1989.12.14", "ISFP"))
+        thirdGroupMembers.add(Member("이션", "1990.04.08", "CUTE"))
+        thirdGroupMembers.add(Member("제이어스", "1991.09.23", "ENTJ"))
+        thirdGroupMembers.add(Member("와이엇", "1991.12.09", "ESFP"))
+        thirdGroupMembers.add(Member("MK", "1993.07.18", "INFP"))
+        thirdGroupMembers.add(Member("유", "1993.07.18", "INFP"))
 
         sectionModelList.add(SectionModel(firstGroup, firstGroupMembers))
         sectionModelList.add(SectionModel(secondGroup, secondGroupMembers))
